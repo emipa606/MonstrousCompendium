@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>DeviljhoRoam</defName>
+    <label>Deviljho roaming</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_Deviljho</workerClass>
+    <baseChance>2.0</baseChance>
+    <category>ThreatBig</category>
+    <minRefireDays>8</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>ManhunterPack</tale>
+  </IncidentDef>
+</Defs>

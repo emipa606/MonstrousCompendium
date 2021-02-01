@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ToolCapacityDef>
+    <defName>Mindblast</defName>
+    <label>Mind Blasting</label>
+  </ToolCapacityDef>
+  <BodyPartGroupDef>
+    <defName>BrainAttackTool</defName>
+    <label>brain</label>
+  </BodyPartGroupDef>
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Illithid</defName>
+    <label>Illithid</label>
+    <description>Illithids, often called as mind flayers. These cephalopods creatures have powerful psionic powers to control other creatures and breaking minds.</description>
+    <statBases>
+      <MoveSpeed>4.3</MoveSpeed>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <MarketValue>1600</MarketValue>
+      <MeatAmount>22</MeatAmount>
+      <LeatherAmount>16</LeatherAmount>
+      <PsychicSensitivity>0</PsychicSensitivity>
+      <ToxicSensitivity>0</ToxicSensitivity>
+    </statBases>
+    <tools>
+      <li>
+        <label>Mind Blast</label>
+        <capacities>
+          <li>Mindblast</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>BrainAttackTool</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>222</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+    <race>
+      <herdAnimal>false</herdAnimal>
+      <intelligence>ToolUser</intelligence>
+      <predator>true</predator>
+      <hasGenders>false</hasGenders>
+      <body>Illithid</body>
+      <baseHungerRate>0.55</baseHungerRate>
+      <baseBodySize>1.5</baseBodySize>
+      <baseHealthScale>2</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <packAnimal>false</packAnimal>
+      <wildness>0.9</wildness>
+      <lifeExpectancy>135</lifeExpectancy>
+      <trainability>Advanced</trainability>
+      <manhunterOnTameFailChance>0.9</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <leatherDef>Leather_Plain</leatherDef>
+      <meatLabel>Illithid Meat</meatLabel>
+      <wildBiomes>
+        <AridShrubland>0</AridShrubland>
+        <TemperateForest>0</TemperateForest>
+        <TropicalRainforest>0</TropicalRainforest>
+        <IceSheet>0</IceSheet>
+        <BorealForest>0</BorealForest>
+        <Tundra>0</Tundra>
+        <Desert>0</Desert>
+      </wildBiomes>
+      <nuzzleMtbHours>275</nuzzleMtbHours>
+      <litterSizeCurve>
+        <points>
+          <li>(0.99, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Illithid</defName>
+    <label>Mind flayer</label>
+    <race>Illithid</race>
+    <combatPower>330</combatPower>
+    <defaultFactionType>IllithidFaction</defaultFactionType>
+    <aiAvoidCover>true</aiAvoidCover>
+    <wildGroupSize>
+      <min>1</min>
+      <max>3</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Illithid</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Illithid</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Illithid</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Illithid</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Illithid</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Illithid</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponMoney>
+      <min>500</min>
+      <max>3000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>IllithidRanged</li>
+    </weaponTags>
+    <apparelTags>
+      <li>NOPE</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>0</min>
+      <max>1000</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>PsionicShieldBelt</li>
+    </apparelRequired>
+  </PawnKindDef>
+</Defs>

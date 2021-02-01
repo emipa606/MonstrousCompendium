@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Thanks Megafauna team!!! -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>A Dog Said...</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- here an if/else statement could be useful, but it's not supported. -->
+        <!-- instead a sequence is used to make a branching point.  -->
+        <!-- the operation after the sequence is always reached regardless of sequence results. -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers</xpath>
+          <value>
+            <li>Beetle</li>
+            <li>FireBeetle</li>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallPegLegAnimal"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallSimpleProstheticLegAnimal"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallBionicLegAnimal"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallNoseAnimalSimple"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallBionicEyeAnimal"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallEarAnimalSimple"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallEarAnimalBionic"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallJawAnimalSimple"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallJawAnimalBionic"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallSpineAnimalSimple"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallSpineAnimalBionic"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallAnimalBrainStimulator"]/recipeUsers</xpath>
+          <value>
+            <li>Beetle</li>
+            <li>FireBeetle</li>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallBionicAnimalHeart"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallBionicAnimalLung"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallBionicAnimalLiver"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallBionicAnimalKidney"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName = "InstallBionicAnimalStomach"]/recipeUsers</xpath>
+          <value>
+            <li>Deviljho</li>
+            <li>Gryphon</li>
+            <li>Hydra</li>
+            <li>Purpleworm</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

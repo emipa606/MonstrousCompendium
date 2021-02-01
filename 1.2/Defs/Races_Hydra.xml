@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <HediffDef>
+    <defName>Hydra_Passive</defName>
+    <label>Intermittent explosive disorder</label>
+    <description>Intermittent explosive disorder</description>
+    <defaultLabelColor>(0.5, 0.5, 0.5)</defaultLabelColor>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffGiverSetDef>
+    <defName>Hydra_HediffGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>Hydra_Passive</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  <DamageDef ParentName="Bite">
+    <defName>hydrabite</defName>
+    <label>venomous bite</label>
+    <additionalHediffs>
+      <li>
+        <hediff>ToxicBuildup</hediff>
+        <severityPerDamageDealt>0.009</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  <ManeuverDef>
+    <defName>hydrabite</defName>
+    <requiredCapacity>hydrabite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>hydrabite</meleeDamageDef>
+    </verb>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ToolCapacityDef>
+    <defName>hydrabite</defName>
+    <label>toxic biting</label>
+  </ToolCapacityDef>
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Hydra</defName>
+    <label>Hydra</label>
+    <description>A five-headed snakelike reptile. Their brutal and lethal heads, giant size, venomous teeth make them apex predators of jungle.</description>
+    <statBases>
+      <MoveSpeed>4.2</MoveSpeed>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <MarketValue>8500</MarketValue>
+      <MeatAmount>50</MeatAmount>
+      <LeatherAmount>50</LeatherAmount>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ToxicSensitivity>0</ToxicSensitivity>
+      <ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+      <CarryingCapacity>150</CarryingCapacity>
+    </statBases>
+    <tools>
+      <li>
+        <label>First head bite</label>
+        <capacities>
+          <li>hydrabite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Second head bite</label>
+        <capacities>
+          <li>hydrabite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Third head bite</label>
+        <capacities>
+          <li>hydrabite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Fourth head bite</label>
+        <capacities>
+          <li>hydrabite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Fifth head bite</label>
+        <capacities>
+          <li>hydrabite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>First head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Second head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Third head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Fourth head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Fifth head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <herdAnimal>false</herdAnimal>
+      <predator>true</predator>
+      <body>body_hydra</body>
+      <baseHungerRate>1</baseHungerRate>
+      <baseBodySize>6</baseBodySize>
+      <baseHealthScale>12</baseHealthScale>
+      <maxPreyBodySize>15</maxPreyBodySize>
+      <foodType>CarnivoreAnimal</foodType>
+      <packAnimal>false</packAnimal>
+      <wildness>0.95</wildness>
+      <lifeExpectancy>180</lifeExpectancy>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <gestationPeriodDays>60</gestationPeriodDays>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <meatLabel>hydra Meat</meatLabel>
+      <nameOnTameChance>1</nameOnTameChance>
+      <wildBiomes>
+        <TemperateSwamp>0.1</TemperateSwamp>
+        <ColdBog>0</ColdBog>
+        <AridShrubland>0</AridShrubland>
+        <TemperateForest>0.03</TemperateForest>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <IceSheet>0</IceSheet>
+        <BorealForest>0</BorealForest>
+        <Tundra>0</Tundra>
+        <Desert>0</Desert>
+      </wildBiomes>
+      <nuzzleMtbHours>275</nuzzleMtbHours>
+      <litterSizeCurve>
+        <points>
+          <li>(0.99, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>3</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>6</minAge>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>EggHydraFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>60</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>1</min>
+          <max>1</max>
+        </eggCountRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggHydraFertilized</defName>
+    <label>hydra egg (fert.)</label>
+    <description>Fertilized hydra egg. If all goes well, it should hatch into a baby hydra. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(100,230,100)</color>
+      <drawSize>5</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>6000</MarketValue>
+    </statBases>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>35</hatcherDaystoHatch>
+        <hatcherPawn>Hydra</hatcherPawn>
+      </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Hydra</defName>
+    <label>히드라</label>
+    <race>Hydra</race>
+    <combatPower>750</combatPower>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <canArriveManhunter>false</canArriveManhunter>
+    <wildGroupSize>
+      <min>1</min>
+      <max>1</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>hydra</texPath>
+          <drawSize>2</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>hydra</texPath>
+          <drawSize>2</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>1.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>hydra</texPath>
+          <drawSize>4</drawSize>
+          <shadowData>
+            <volume>(1.2, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.4)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>hydra</texPath>
+          <drawSize>4</drawSize>
+          <shadowData>
+            <volume>(1.2, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.4)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>2.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>hydra</texPath>
+          <drawSize>5</drawSize>
+          <shadowData>
+            <volume>(1.4, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>hydra</texPath>
+          <drawSize>5</drawSize>
+          <shadowData>
+            <volume>(1.4, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>3.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

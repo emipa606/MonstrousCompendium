@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Monstrous Compendium</name>
+  <author>Undereastern</author>
+  <targetVersion>0.18.0</targetVersion>
+  <description>Version: 1.2
+	
+	Adds various new creatures and incidents.
+	
+	RangeAnimalFramework is not necessary but with the framework, some animals can use their own range attacks.
+
+</description>
+</ModMetaData>
