@@ -139,7 +139,7 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Gryphon</defName>
-    <label>그리폰</label>
+    <label>Gryphon</label>
     <race>Gryphon</race>
     <combatPower>130</combatPower>
     <ecoSystemWeight>1</ecoSystemWeight>

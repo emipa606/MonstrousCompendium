@@ -264,7 +264,7 @@
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Hydra</defName>
-    <label>히드라</label>
+    <label>Hydra</label>
     <race>Hydra</race>
     <combatPower>750</combatPower>
     <ecoSystemWeight>1</ecoSystemWeight>
