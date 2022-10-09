@@ -13,7 +13,7 @@ public class IncidentWorker_Deviljho : IncidentWorker
 
     protected override bool TryExecuteWorker(IncidentParms parms)
     {
-        var map = (Map) parms.target;
+        var map = (Map)parms.target;
         if (!ManhunterPackIncidentUtility.TryFindManhunterAnimalKind(parms.points, map.Tile, out var pawnKindDef))
         {
             return false;

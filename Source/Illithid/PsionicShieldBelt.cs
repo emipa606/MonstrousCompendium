@@ -189,7 +189,7 @@ public class PsionicShieldBelt : Apparel
         var loc = Wearer.TrueCenter() + (impactAngleVect.RotatedBy(180f) * 0.5f);
         var num = Mathf.Min(10f, 2f + (dinfo.Amount / 10f));
         FleckMaker.Static(loc, Wearer.Map, FleckDefOf.ExplosionFlash, num);
-        var num2 = (int) num;
+        var num2 = (int)num;
         for (var i = 0; i < num2; i++)
         {
             FleckMaker.ThrowDustPuff(loc, Wearer.Map, Rand.Range(0.8f, 1.2f));
@@ -244,7 +244,7 @@ public class PsionicShieldBelt : Apparel
             num -= num3;
         }
 
-        var angle = (float) Rand.Range(0, 360);
+        var angle = (float)Rand.Range(0, 360);
         var s = new Vector3(num, 1f, num);
         var matrix = default(Matrix4x4);
         matrix.SetTRS(vector, Quaternion.AngleAxis(angle, Vector3.up), s);

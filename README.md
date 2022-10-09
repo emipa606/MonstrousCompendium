@@ -1,14 +1,14 @@
 # MonstrousCompendium
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Undereasterns mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1398112020
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 Thanks to Razzoriel, making No camshake explosions!
 Also thanks to Nightinggale for making ModCheck for patches!
@@ -26,7 +26,7 @@ But with it, some creatures can use range attacks.
 
 
 
-Adds various new creatures and incidents. That&apos;s all.
+Adds various new creatures and incidents. That's all.
 	
 
 
@@ -56,7 +56,7 @@ Illithid, fortunately are not wild animals. They are a kind of faction, like mec
 
 *Known issue : when illithids raid, error messages can be popped up. They are not dangerous, so do not care about it.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -66,6 +66,7 @@ Illithid, fortunately are not wild animals. They are a kind of faction, like mec
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
