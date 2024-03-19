@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Purpleworm</defName>
+    <label>purple worm</label>
+    <description>A large worm, often more longer than 40 meters in length. Be careful when passing their territory, as they can sense everything near them.</description>
+    <statBases>
+      <MoveSpeed>3.84</MoveSpeed>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <MarketValue>4000</MarketValue>
+      <MeatAmount>20</MeatAmount>
+      <LeatherAmount>20</LeatherAmount>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+    </statBases>
+    <tools>
+      <li>
+        <capacities>
+          <li>ToxicBite</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>Snake</body>
+      <predator>true</predator>
+      <maxPreyBodySize>3</maxPreyBodySize>
+      <baseBodySize>9</baseBodySize>
+      <baseHungerRate>0.5</baseHungerRate>
+      <bloodDef>Filth_BloodInsect</bloodDef>
+      <baseHealthScale>17</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Patch</leatherDef>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <wildness>0.85</wildness>
+      <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <gestationPeriodDays>17.5</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(3, 1)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>300</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>6</minAge>
+          <soundWounded>Pawn_Cobra_Wounded</soundWounded>
+          <soundDeath>Pawn_Cobra_Death</soundDeath>
+          <soundCall>Pawn_Cobra_Call</soundCall>
+          <soundAngry>Pawn_Cobra_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <wildBiomes>
+        <AridShrubland>0.05</AridShrubland>
+        <TemperateForest>0</TemperateForest>
+        <TropicalRainforest>0</TropicalRainforest>
+        <IceSheet>0</IceSheet>
+        <BorealForest>0</BorealForest>
+        <Tundra>0.03</Tundra>
+        <Desert>0.05</Desert>
+      </wildBiomes>
+    </race>
+    <comps>
+      <li Class="CompProperties_SpawnerFilth">
+        <filthDef>Filth_RubbleRock</filthDef>
+        <spawnCountOnSpawn>1</spawnCountOnSpawn>
+        <spawnMtbHours>0.5</spawnMtbHours>
+        <spawnRadius>2</spawnRadius>
+      </li>
+    </comps>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Purpleworm</defName>
+    <label>purple worm</label>
+    <race>Purpleworm</race>
+    <combatPower>750</combatPower>
+    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Purpleworm</texPath>
+          <drawSize>3</drawSize>
+          <shadowData>
+            <volume>(1, 0.6, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+          <color>(200,200,200)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Purpleworm</texPath>
+          <drawSize>4</drawSize>
+          <shadowData>
+            <volume>(1, 0.6, 0.5)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+          <color>(200,200,200)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Purpleworm</texPath>
+          <drawSize>5</drawSize>
+          <shadowData>
+            <volume>(1, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.13)</offset>
+          </shadowData>
+          <color>(200,200,200)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

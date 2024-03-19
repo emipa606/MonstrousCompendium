@@ -34,7 +34,7 @@ internal class Gizmo_PsionicShieldStatus : Gizmo
             var num = shield.Energy * 100f;
             var str = num.ToString("F0");
             num = shield.GetStatValue(StatDefOf.EnergyShieldEnergyMax) * 100f;
-            Widgets.Label(rect4, str + " / " + num.ToString("F0"));
+            Widgets.Label(rect4, $"{str} / {num:F0}");
             Text.Anchor = TextAnchor.UpperLeft;
         });
         return new GizmoResult(GizmoState.Clear);

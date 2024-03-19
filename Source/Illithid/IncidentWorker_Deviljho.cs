@@ -14,7 +14,7 @@ public class IncidentWorker_Deviljho : IncidentWorker
     protected override bool TryExecuteWorker(IncidentParms parms)
     {
         var map = (Map)parms.target;
-        if (!ManhunterPackIncidentUtility.TryFindManhunterAnimalKind(parms.points, map.Tile, out var pawnKindDef))
+        if (!AggressiveAnimalIncidentUtility.TryFindAggressiveAnimalKind(parms.points, map.Tile, out var pawnKindDef))
         {
             return false;
         }
@@ -24,7 +24,7 @@ public class IncidentWorker_Deviljho : IncidentWorker
             return false;
         }
 
-        var list = ManhunterPackIncidentUtility.GenerateAnimals(pawnKindDef, map.Tile, parms.points * 0.2f);
+        var list = AggressiveAnimalIncidentUtility.GenerateAnimals(pawnKindDef, map.Tile, parms.points * 0.2f);
         var rot = Rot4.FromAngleFlat((map.Center - intVec).AngleFlat);
         for (var i = 0; i < list.Count; i++)
         {
@@ -32,7 +32,8 @@ public class IncidentWorker_Deviljho : IncidentWorker
             var pawn = PawnGenerator.GeneratePawn(deviljho);
             var loc = CellFinder.RandomClosewalkCellNear(intVec, map, 10);
             GenSpawn.Spawn(pawn, loc, map, rot);
-            pawn.mindState.exitMapAfterTick = Find.TickManager.TicksGame + Rand.Range(60000, 135000);
+            pawn.mindState.exitMapAfterTick =
+                Find.TickManager.TicksGame + Rand.Range(AnimalsStayDurationMin, AnimalsStayDurationMax);
         }
 
         Find.LetterStack.ReceiveLetter("LetterLabelDeviljho".Translate(),

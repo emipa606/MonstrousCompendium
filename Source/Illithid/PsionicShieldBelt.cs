@@ -44,18 +44,7 @@ public class PsionicShieldBelt : Apparel
 
     public float Energy => energy;
 
-    public ShieldState ShieldState
-    {
-        get
-        {
-            if (ticksToReset > 0)
-            {
-                return ShieldState.Resetting;
-            }
-
-            return ShieldState.Active;
-        }
-    }
+    public ShieldState ShieldState => ticksToReset > 0 ? ShieldState.Resetting : ShieldState.Active;
 
     private bool ShouldDisplay
     {
@@ -82,12 +71,7 @@ public class PsionicShieldBelt : Apparel
                 return true;
             }
 
-            if (Find.TickManager.TicksGame < lastKeepDisplayTick + KeepDisplayingTicks)
-            {
-                return true;
-            }
-
-            return false;
+            return Find.TickManager.TicksGame < lastKeepDisplayTick + KeepDisplayingTicks;
         }
     }
 
@@ -201,7 +185,8 @@ public class PsionicShieldBelt : Apparel
 
     private void Break()
     {
-        SoundDefOf.EnergyShield_Broken.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
+        DefDatabase<SoundDef>.GetNamedSilentFail("EnergyShield_Broken")
+            .PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
         FleckMaker.Static(Wearer.TrueCenter(), Wearer.Map, FleckDefOf.ExplosionFlash, 12f);
         for (var i = 0; i < 6; i++)
         {
