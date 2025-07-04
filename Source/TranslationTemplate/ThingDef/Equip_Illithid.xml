@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Mind blast wave -->
+  <Bullet_Mindblast.label>Mind blast wave</Bullet_Mindblast.label>
+  <!-- EN: Mind blast wave -->
+  <Bulletno_Mindblast.label>Mind blast wave</Bulletno_Mindblast.label>
+  <!-- EN: Ring of psionic shock -->
+  <Gun_Mindblast.label>Ring of psionic shock</Gun_Mindblast.label>
+  <!-- EN: Illithid's simple weapon that amplify psionic power. Can paralyze target or melt target's brain. Only Illithids can use it due to their inborn power. -->
+  <Gun_Mindblast.description>Illithid's simple weapon that amplify psionic power. Can paralyze target or melt target's brain. Only Illithids can use it due to their inborn power.</Gun_Mindblast.description>
+  <!-- EN: barrel -->
+  <Gun_Mindblast.tools.barrel.label>barrel</Gun_Mindblast.tools.barrel.label>
+  <!-- EN: Ring of psionic shock -->
+  <Gun_Mindblast.verbs.Verb_Shoot.label>Ring of psionic shock</Gun_Mindblast.verbs.Verb_Shoot.label>
+  <!-- EN: Psionic shield generator -->
+  <PsionicShieldBelt.label>Psionic shield generator</PsionicShieldBelt.label>
+  <!-- EN: Personal psionic shield generator used by illithids. Only Illithids can use it due to their inborn psionic power. -->
+  <PsionicShieldBelt.description>Personal psionic shield generator used by illithids. Only Illithids can use it due to their inborn psionic power.</PsionicShieldBelt.description>
+</LanguageData>

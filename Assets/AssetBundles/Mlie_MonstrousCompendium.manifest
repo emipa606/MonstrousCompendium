@@ -1,0 +1,59 @@
+ManifestFileVersion: 0
+CRC: 2641959059
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 192d316d3bce2dc04e0d6a833e75ba29
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 192d316d3bce2dc04e0d6a833e75ba29
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.MonstrousCompendium/Textures/hydra_north.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle2_south.png
+- Assets/Data/Mlie.MonstrousCompendium/Sounds/wand/wand1.ogg
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Slime_south.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/hydra_south.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/deviljho_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle2_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle_eastm.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Bird.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Fenrir_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Illithid_south.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/deviljho_south.png
+- Assets/Data/Mlie.MonstrousCompendium/Sounds/wand/wand2.ogg
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Minotakun.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Gryphon2_south.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle_southm.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Gryphon2_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Filth/filthworm.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle_south.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Illithid_north.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Purpleworm_south.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle_north.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/ShieldBubble.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Purpleworm_north.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/bullet.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle2_north.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/deviljho_north.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Slime_north.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/hydra_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Slime_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Firebeetlefire.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Purpleworm_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Illithid_east.png
+- Assets/Data/Mlie.MonstrousCompendium/Sounds/wand/wand.ogg
+- Assets/Data/Mlie.MonstrousCompendium/Textures/beetle_northm.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Gryphon2_north.png
+- Assets/Data/Mlie.MonstrousCompendium/Textures/Displacerbeast_east.png
+Dependencies: []

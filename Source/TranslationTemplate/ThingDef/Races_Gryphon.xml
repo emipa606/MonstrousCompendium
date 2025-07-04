@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: gryphon egg (fert.) -->
+  <EggGryphonFertilized.label>gryphon egg (fert.)</EggGryphonFertilized.label>
+  <!-- EN: Fertilized gryphon egg. If all goes well, it should hatch into a baby gryphon. It can be eaten raw, but it's much better cooked. -->
+  <EggGryphonFertilized.description>Fertilized gryphon egg. If all goes well, it should hatch into a baby gryphon. It can be eaten raw, but it's much better cooked.</EggGryphonFertilized.description>
+  <!-- EN: gryphon egg (unfert.) -->
+  <EggGryphonUnFertilized.label>gryphon egg (unfert.)</EggGryphonUnFertilized.label>
+  <!-- EN: Unfertilized gryphon egg. It can be eaten raw, but it's much better cooked. -->
+  <EggGryphonUnFertilized.description>Unfertilized gryphon egg. It can be eaten raw, but it's much better cooked.</EggGryphonUnFertilized.description>
+  <!-- EN: Gryphon -->
+  <Gryphon.label>Gryphon</Gryphon.label>
+  <!-- EN: This creature looks like lion mixed well with eagle. They are as big as bear, and as fast as eagle. Need to be careful taming them. -->
+  <Gryphon.description>This creature looks like lion mixed well with eagle. They are as big as bear, and as fast as eagle. Need to be careful taming them.</Gryphon.description>
+  <!-- EN: gryphon Meat -->
+  <Gryphon.race.meatLabel>gryphon Meat</Gryphon.race.meatLabel>
+  <!-- EN: left claw -->
+  <Gryphon.tools.left_claw.label>left claw</Gryphon.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Gryphon.tools.right_claw.label>right claw</Gryphon.tools.right_claw.label>
+  <!-- EN: beak -->
+  <Gryphon.tools.beak.label>beak</Gryphon.tools.beak.label>
+</LanguageData>

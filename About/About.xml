@@ -10,6 +10,7 @@
     <li>1.3</li>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -89,5 +90,5 @@ Illithid, fortunately are not wild animals. They are a kind of faction, like mec
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2381100965][img]https://img.shields.io/github/v/release/emipa606/MonstrousCompendium?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: mythical creatures</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
 </ModMetaData>

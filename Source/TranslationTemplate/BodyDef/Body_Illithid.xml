@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Illithid -->
+  <Illithid.label>Illithid</Illithid.label>
+  <!-- EN: left lung -->
+  <Illithid.corePart.parts.left_lung.customLabel>left lung</Illithid.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <Illithid.corePart.parts.right_lung.customLabel>right lung</Illithid.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <Illithid.corePart.parts.left_kidney.customLabel>left kidney</Illithid.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <Illithid.corePart.parts.right_kidney.customLabel>right kidney</Illithid.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left eye -->
+  <Illithid.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</Illithid.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+  <Illithid.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</Illithid.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+  <Illithid.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</Illithid.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+  <Illithid.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</Illithid.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: left shoulder -->
+  <Illithid.corePart.parts.left_shoulder.customLabel>left shoulder</Illithid.corePart.parts.left_shoulder.customLabel>
+  <!-- EN: left clavicle -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>left clavicle</Illithid.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>
+  <!-- EN: left arm -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.customLabel>left arm</Illithid.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <!-- EN: left humerus -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>left humerus</Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <!-- EN: left radius -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>left radius</Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <!-- EN: left hand -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>left hand</Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <!-- EN: left hand pinky -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_pinky.customLabel>left hand pinky</Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_pinky.customLabel>
+  <!-- EN: left hand ring finger -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_ring_finger.customLabel>left hand ring finger</Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_ring_finger.customLabel>
+  <!-- EN: left hand middle finger -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_middle_finger.customLabel>left hand middle finger</Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_middle_finger.customLabel>
+  <!-- EN: left hand index finger -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_index_finger.customLabel>left hand index finger</Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_index_finger.customLabel>
+  <!-- EN: left hand thumb -->
+  <Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_thumb.customLabel>left hand thumb</Illithid.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_hand_thumb.customLabel>
+  <!-- EN: right shoulder -->
+  <Illithid.corePart.parts.right_shoulder.customLabel>right shoulder</Illithid.corePart.parts.right_shoulder.customLabel>
+  <!-- EN: right clavicle -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>right clavicle</Illithid.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>
+  <!-- EN: right arm -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.customLabel>right arm</Illithid.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <!-- EN: right humerus -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>right humerus</Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <!-- EN: right radius -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>right radius</Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <!-- EN: right hand -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>right hand</Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <!-- EN: right hand pinky -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_pinky.customLabel>right hand pinky</Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_pinky.customLabel>
+  <!-- EN: right hand ring finger -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_ring_finger.customLabel>right hand ring finger</Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_ring_finger.customLabel>
+  <!-- EN: right hand middle finger -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_middle_finger.customLabel>right hand middle finger</Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_middle_finger.customLabel>
+  <!-- EN: right hand index finger -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_index_finger.customLabel>right hand index finger</Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_index_finger.customLabel>
+  <!-- EN: right hand thumb -->
+  <Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_thumb.customLabel>right hand thumb</Illithid.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_hand_thumb.customLabel>
+  <!-- EN: left leg -->
+  <Illithid.corePart.parts.left_leg.customLabel>left leg</Illithid.corePart.parts.left_leg.customLabel>
+  <!-- EN: left femur -->
+  <Illithid.corePart.parts.left_leg.parts.left_femur.customLabel>left femur</Illithid.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <!-- EN: left tibia -->
+  <Illithid.corePart.parts.left_leg.parts.left_tibia.customLabel>left tibia</Illithid.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <!-- EN: left foot -->
+  <Illithid.corePart.parts.left_leg.parts.left_foot.customLabel>left foot</Illithid.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <!-- EN: left foot little toe -->
+  <Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_little_toe.customLabel>left foot little toe</Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_little_toe.customLabel>
+  <!-- EN: left foot fourth toe -->
+  <Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_fourth_toe.customLabel>left foot fourth toe</Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_fourth_toe.customLabel>
+  <!-- EN: left foot middle toe -->
+  <Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_middle_toe.customLabel>left foot middle toe</Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_middle_toe.customLabel>
+  <!-- EN: left foot second toe -->
+  <Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_second_toe.customLabel>left foot second toe</Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_second_toe.customLabel>
+  <!-- EN: left foot big toe -->
+  <Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_big_toe.customLabel>left foot big toe</Illithid.corePart.parts.left_leg.parts.left_foot.parts.left_foot_big_toe.customLabel>
+  <!-- EN: right leg -->
+  <Illithid.corePart.parts.right_leg.customLabel>right leg</Illithid.corePart.parts.right_leg.customLabel>
+  <!-- EN: right femur -->
+  <Illithid.corePart.parts.right_leg.parts.right_femur.customLabel>right femur</Illithid.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <!-- EN: right tibia -->
+  <Illithid.corePart.parts.right_leg.parts.right_tibia.customLabel>right tibia</Illithid.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <!-- EN: right foot -->
+  <Illithid.corePart.parts.right_leg.parts.right_foot.customLabel>right foot</Illithid.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <!-- EN: right foot little toe -->
+  <Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_little_toe.customLabel>right foot little toe</Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_little_toe.customLabel>
+  <!-- EN: right foot fourth toe -->
+  <Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_fourth_toe.customLabel>right foot fourth toe</Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_fourth_toe.customLabel>
+  <!-- EN: right foot middle toe -->
+  <Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_middle_toe.customLabel>right foot middle toe</Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_middle_toe.customLabel>
+  <!-- EN: right foot second toe -->
+  <Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_second_toe.customLabel>right foot second toe</Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_second_toe.customLabel>
+  <!-- EN: right foot big toe -->
+  <Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_big_toe.customLabel>right foot big toe</Illithid.corePart.parts.right_leg.parts.right_foot.parts.right_foot_big_toe.customLabel>
+</LanguageData>

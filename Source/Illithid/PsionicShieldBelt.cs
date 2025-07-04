@@ -17,17 +17,17 @@ public class PsionicShieldBelt : Apparel
 
     private const int JitterDurationTicks = 8;
 
-    private static readonly Material BubbleMat = MaterialPool.MatFrom("Other/ShieldBubble", ShaderDatabase.Transparent);
+    private const float ApparelScorePerEnergyMax = 0.25f;
 
-    private readonly float ApparelScorePerEnergyMax = 0.25f;
+    private const float EnergyLossPerDamage = 0.033f;
 
-    private readonly float EnergyLossPerDamage = 0.033f;
+    private const float EnergyOnReset = 0.2f;
 
-    private readonly float EnergyOnReset = 0.2f;
+    private const int KeepDisplayingTicks = 1000;
 
-    private readonly int KeepDisplayingTicks = 1000;
+    private const int StartingTicksToReset = 3200;
 
-    private readonly int StartingTicksToReset = 3200;
+    private static readonly Material bubbleMat = MaterialPool.MatFrom("Other/ShieldBubble", ShaderDatabase.Transparent);
     private float energy;
 
     private Vector3 impactAngleVect;
@@ -44,7 +44,7 @@ public class PsionicShieldBelt : Apparel
 
     public float Energy => energy;
 
-    public ShieldState ShieldState => ticksToReset > 0 ? ShieldState.Resetting : ShieldState.Active;
+    private ShieldState ShieldState => ticksToReset > 0 ? ShieldState.Resetting : ShieldState.Active;
 
     private bool ShouldDisplay
     {
@@ -94,7 +94,7 @@ public class PsionicShieldBelt : Apparel
         {
             yield return new Gizmo_PsionicShieldStatus
             {
-                shield = this
+                Shield = this
             };
         }
     }
@@ -104,27 +104,37 @@ public class PsionicShieldBelt : Apparel
         return EnergyMax * ApparelScorePerEnergyMax;
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (Wearer == null)
         {
             energy = 0f;
         }
-        else if (ShieldState == ShieldState.Resetting)
+        else
         {
-            ticksToReset--;
-            if (ticksToReset <= 0)
+            switch (ShieldState)
             {
-                Reset();
-            }
-        }
-        else if (ShieldState == ShieldState.Active)
-        {
-            energy += EnergyGainPerTick;
-            if (energy > EnergyMax)
-            {
-                energy = EnergyMax;
+                case ShieldState.Resetting:
+                {
+                    ticksToReset--;
+                    if (ticksToReset <= 0)
+                    {
+                        reset();
+                    }
+
+                    break;
+                }
+                case ShieldState.Active:
+                {
+                    energy += EnergyGainPerTick;
+                    if (energy > EnergyMax)
+                    {
+                        energy = EnergyMax;
+                    }
+
+                    break;
+                }
             }
         }
     }
@@ -151,22 +161,22 @@ public class PsionicShieldBelt : Apparel
 
         if (energy < 0f)
         {
-            Break();
+            breakShield();
         }
         else
         {
-            AbsorbedDamage(dinfo);
+            absorbedDamage(dinfo);
         }
 
         return true;
     }
 
-    public void KeepDisplaying()
+    private void keepDisplaying()
     {
         lastKeepDisplayTick = Find.TickManager.TicksGame;
     }
 
-    private void AbsorbedDamage(DamageInfo dinfo)
+    private void absorbedDamage(DamageInfo dinfo)
     {
         SoundDefOf.EnergyShield_AbsorbDamage.PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
         impactAngleVect = Vector3Utility.HorizontalVectorFromAngle(dinfo.Angle);
@@ -180,10 +190,10 @@ public class PsionicShieldBelt : Apparel
         }
 
         lastAbsorbDamageTick = Find.TickManager.TicksGame;
-        KeepDisplaying();
+        keepDisplaying();
     }
 
-    private void Break()
+    private void breakShield()
     {
         DefDatabase<SoundDef>.GetNamedSilentFail("EnergyShield_Broken")
             .PlayOneShot(new TargetInfo(Wearer.Position, Wearer.Map));
@@ -199,7 +209,7 @@ public class PsionicShieldBelt : Apparel
         ticksToReset = StartingTicksToReset;
     }
 
-    private void Reset()
+    private void reset()
     {
         if (Wearer.Spawned)
         {
@@ -233,7 +243,7 @@ public class PsionicShieldBelt : Apparel
         var s = new Vector3(num, 1f, num);
         var matrix = default(Matrix4x4);
         matrix.SetTRS(vector, Quaternion.AngleAxis(angle, Vector3.up), s);
-        Graphics.DrawMesh(MeshPool.plane10, matrix, BubbleMat, 0);
+        Graphics.DrawMesh(MeshPool.plane10, matrix, bubbleMat, 0);
     }
 
     public override bool AllowVerbCast(Verb verb)

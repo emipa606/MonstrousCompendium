@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Illithid -->
+  <Illithid.label>Illithid</Illithid.label>
+  <!-- EN: Illithids, often called as mind flayers. These cephalopods creatures have powerful psionic powers to control other creatures and breaking minds. -->
+  <Illithid.description>Illithids, often called as mind flayers. These cephalopods creatures have powerful psionic powers to control other creatures and breaking minds.</Illithid.description>
+  <!-- EN: Illithid Meat -->
+  <Illithid.race.meatLabel>Illithid Meat</Illithid.race.meatLabel>
+  <!-- EN: Mind Blast -->
+  <Illithid.tools.Mind_Blast.label>Mind Blast</Illithid.tools.Mind_Blast.label>
+</LanguageData>

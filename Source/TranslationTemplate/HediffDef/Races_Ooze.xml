@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Slime -->
+  <Slime_Passive.label>Slime</Slime_Passive.label>
+  <!-- EN: Slime -->
+  <Slime_Passive.description>Slime</Slime_Passive.description>
+  <!-- EN: Slow -->
+  <Slow.label>Slow</Slow.label>
+  <!-- EN: Slow -->
+  <Slow.description>Slow</Slow.description>
+  <!-- EN: Slow -->
+  <Slow.labelNoun>Slow</Slow.labelNoun>
+</LanguageData>

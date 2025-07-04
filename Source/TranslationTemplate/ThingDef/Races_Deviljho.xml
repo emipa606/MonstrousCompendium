@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Deviljho -->
+  <Deviljho.label>Deviljho</Deviljho.label>
+  <!-- EN: This tremendous dinosaur-like creature is -unbelievably,- almost 40m long in width. It's mouth is big enough to swallow a deer. Because their body temperature is weirdly high, they often devour everything in front of them incessantly. -->
+  <Deviljho.description>This tremendous dinosaur-like creature is -unbelievably,- almost 40m long in width. It's mouth is big enough to swallow a deer. Because their body temperature is weirdly high, they often devour everything in front of them incessantly.</Deviljho.description>
+  <!-- EN: deviljho Meat -->
+  <Deviljho.race.meatLabel>deviljho Meat</Deviljho.race.meatLabel>
+  <!-- EN: Bite -->
+  <Deviljho.tools.Bite.label>Bite</Deviljho.tools.Bite.label>
+  <!-- EN: head -->
+  <Deviljho.tools.head.label>head</Deviljho.tools.head.label>
+  <!-- EN: Left Foot -->
+  <Deviljho.tools.Left_Foot.label>Left Foot</Deviljho.tools.Left_Foot.label>
+  <!-- EN: Right Foot -->
+  <Deviljho.tools.Right_Foot.label>Right Foot</Deviljho.tools.Right_Foot.label>
+  <!-- EN: Tail -->
+  <Deviljho.tools.Tail.label>Tail</Deviljho.tools.Tail.label>
+</LanguageData>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bulletno_Mindblast</defName>
+    <label>Mind blast wave</label>
+    <graphicData>
+      <texPath>bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Mindblast</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>205</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Mindblast</defName>
+    <label>Mind blast wave</label>
+    <graphicData>
+      <texPath>bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Mindblast</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <speed>205</speed>
+      <explosionRadius>2</explosionRadius>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_Mindblast</defName>
+    <label>Ring of psionic shock</label>
+    <description>Illithid's simple weapon that amplify psionic power. Can paralyze target or melt target's brain. Only Illithids can use it due to their inborn power.</description>
+    <graphicData>
+      <texPath>bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <Mass>2</Mass>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <destroyOnDrop>true</destroyOnDrop>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <weaponTags>
+      <li>IllithidRanged</li>
+    </weaponTags>
+    <tradeability>None</tradeability>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Mindblast</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>12</range>
+        <burstShotCount>1</burstShotCount>
+        <forcedMissRadius>0.01</forcedMissRadius>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>20</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Mindblast</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="ApparelBase">
+    <defName>PsionicShieldBelt</defName>
+    <label>Psionic shield generator</label>
+    <description>Personal psionic shield generator used by illithids. Only Illithids can use it due to their inborn psionic power.</description>
+    <thingClass>PsionicShieldBelt</thingClass>
+    <graphicData>
+      <texPath>bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <tradeability>None</tradeability>
+    <statBases>
+      <Mass>3</Mass>
+      <EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.5</EnergyShieldEnergyMax>
+      <WorkToMake>5500</WorkToMake>
+    </statBases>
+    <destroyOnDrop>true</destroyOnDrop>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+        <li>NOPE</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+</Defs>

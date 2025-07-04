@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: hydra egg (fert.) -->
+  <EggHydraFertilized.label>hydra egg (fert.)</EggHydraFertilized.label>
+  <!-- EN: Fertilized hydra egg. If all goes well, it should hatch into a baby hydra. It can be eaten raw, but it's much better cooked. -->
+  <EggHydraFertilized.description>Fertilized hydra egg. If all goes well, it should hatch into a baby hydra. It can be eaten raw, but it's much better cooked.</EggHydraFertilized.description>
+  <!-- EN: hydra egg (unfert.) -->
+  <EggHydraUnFertilized.label>hydra egg (unfert.)</EggHydraUnFertilized.label>
+  <!-- EN: Unfertilized hydra egg. It can be eaten raw, but it's much better cooked. -->
+  <EggHydraUnFertilized.description>Unfertilized hydra egg. It can be eaten raw, but it's much better cooked.</EggHydraUnFertilized.description>
+  <!-- EN: Hydra -->
+  <Hydra.label>Hydra</Hydra.label>
+  <!-- EN: A five-headed snakelike reptile. Their brutal and lethal heads, giant size, venomous teeth make them apex predators of jungle. -->
+  <Hydra.description>A five-headed snakelike reptile. Their brutal and lethal heads, giant size, venomous teeth make them apex predators of jungle.</Hydra.description>
+  <!-- EN: hydra Meat -->
+  <Hydra.race.meatLabel>hydra Meat</Hydra.race.meatLabel>
+  <!-- EN: First head bite -->
+  <Hydra.tools.First_head_bite.label>First head bite</Hydra.tools.First_head_bite.label>
+  <!-- EN: Second head bite -->
+  <Hydra.tools.Second_head_bite.label>Second head bite</Hydra.tools.Second_head_bite.label>
+  <!-- EN: Third head bite -->
+  <Hydra.tools.Third_head_bite.label>Third head bite</Hydra.tools.Third_head_bite.label>
+  <!-- EN: Fourth head bite -->
+  <Hydra.tools.Fourth_head_bite.label>Fourth head bite</Hydra.tools.Fourth_head_bite.label>
+  <!-- EN: Fifth head bite -->
+  <Hydra.tools.Fifth_head_bite.label>Fifth head bite</Hydra.tools.Fifth_head_bite.label>
+  <!-- EN: First head -->
+  <Hydra.tools.First_head.label>First head</Hydra.tools.First_head.label>
+  <!-- EN: Second head -->
+  <Hydra.tools.Second_head.label>Second head</Hydra.tools.Second_head.label>
+  <!-- EN: Third head -->
+  <Hydra.tools.Third_head.label>Third head</Hydra.tools.Third_head.label>
+  <!-- EN: Fourth head -->
+  <Hydra.tools.Fourth_head.label>Fourth head</Hydra.tools.Fourth_head.label>
+  <!-- EN: Fifth head -->
+  <Hydra.tools.Fifth_head.label>Fifth head</Hydra.tools.Fifth_head.label>
+</LanguageData>

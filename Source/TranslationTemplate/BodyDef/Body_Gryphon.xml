@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: gryphon -->
+  <Body_Gryphon.label>gryphon</Body_Gryphon.label>
+  <!-- EN: left lung -->
+  <Body_Gryphon.corePart.parts.left_lung.customLabel>left lung</Body_Gryphon.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <Body_Gryphon.corePart.parts.right_lung.customLabel>right lung</Body_Gryphon.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <Body_Gryphon.corePart.parts.left_kidney.customLabel>left kidney</Body_Gryphon.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <Body_Gryphon.corePart.parts.right_kidney.customLabel>right kidney</Body_Gryphon.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left eye -->
+  <Body_Gryphon.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>left eye</Body_Gryphon.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <!-- EN: right eye -->
+  <Body_Gryphon.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>right eye</Body_Gryphon.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <!-- EN: left ear -->
+  <Body_Gryphon.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>left ear</Body_Gryphon.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <!-- EN: right ear -->
+  <Body_Gryphon.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>right ear</Body_Gryphon.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <!-- EN: front left leg -->
+  <Body_Gryphon.corePart.parts.front_left_leg.customLabel>front left leg</Body_Gryphon.corePart.parts.front_left_leg.customLabel>
+  <!-- EN: front right leg -->
+  <Body_Gryphon.corePart.parts.front_right_leg.customLabel>front right leg</Body_Gryphon.corePart.parts.front_right_leg.customLabel>
+  <!-- EN: rear left leg -->
+  <Body_Gryphon.corePart.parts.rear_left_leg.customLabel>rear left leg</Body_Gryphon.corePart.parts.rear_left_leg.customLabel>
+  <!-- EN: rear right leg -->
+  <Body_Gryphon.corePart.parts.rear_right_leg.customLabel>rear right leg</Body_Gryphon.corePart.parts.rear_right_leg.customLabel>
+</LanguageData>

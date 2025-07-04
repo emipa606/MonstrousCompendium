@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Giant Beetle -->
+  <Beetle.label>Giant Beetle</Beetle.label>
+  <!-- EN: A giant beetlelike insect. Unlike their threatening appearance, they living on trees and often docile. -->
+  <Beetle.description>A giant beetlelike insect. Unlike their threatening appearance, they living on trees and often docile.</Beetle.description>
+  <!-- EN: Bite -->
+  <Beetle.tools.Bite.label>Bite</Beetle.tools.Bite.label>
+  <!-- EN: Head Claw -->
+  <Beetle.tools.Head_Claw.label>Head Claw</Beetle.tools.Head_Claw.label>
+  <!-- EN: Flame -->
+  <Bullet_Firebeetle.label>Flame</Bullet_Firebeetle.label>
+  <!-- EN: Fire Beetle -->
+  <FireBeetle.label>Fire Beetle</FireBeetle.label>
+  <!-- EN: A giant beetlelike insect. Often living desert and arid area, they evolved into spitting fire from their secernents. They are not as docile as their relatives. -->
+  <FireBeetle.description>A giant beetlelike insect. Often living desert and arid area, they evolved into spitting fire from their secernents. They are not as docile as their relatives.</FireBeetle.description>
+  <!-- EN: Bite -->
+  <FireBeetle.tools.Bite.label>Bite</FireBeetle.tools.Bite.label>
+  <!-- EN: Head Claw -->
+  <FireBeetle.tools.Head_Claw.label>Head Claw</FireBeetle.tools.Head_Claw.label>
+  <!-- EN: Fire Beetle -->
+  <FireBeetle.verbs.Verb_Shoot.label>Fire Beetle</FireBeetle.verbs.Verb_Shoot.label>
+</LanguageData>

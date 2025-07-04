@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Psinoic blast -->
+  <Mindblast.label>Psinoic blast</Mindblast.label>
+  <!-- EN: Psinoic blast -->
+  <Mindblast.description>Psinoic blast</Mindblast.description>
+  <!-- EN: a Mindblast -->
+  <Mindblast.labelNoun>a Mindblast</Mindblast.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Mindblast.labelNounPretty>{0} in the {1}</Mindblast.labelNounPretty>
+  <!-- EN: Mind shock -->
+  <Mindshock.label>Mind shock</Mindshock.label>
+  <!-- EN: Mind shock -->
+  <Mindshock.description>Mind shock</Mindshock.description>
+  <!-- EN: minor -->
+  <Mindshock.stages.minor.label>minor</Mindshock.stages.minor.label>
+  <!-- EN: major -->
+  <Mindshock.stages.major-0.label>major</Mindshock.stages.major-0.label>
+  <!-- EN: major -->
+  <Mindshock.stages.major-1.label>major</Mindshock.stages.major-1.label>
+  <!-- EN: severe -->
+  <Mindshock.stages.severe.label>severe</Mindshock.stages.severe.label>
+  <!-- EN: extreme -->
+  <Mindshock.stages.extreme.label>extreme</Mindshock.stages.extreme.label>
+  <!-- EN: fatal -->
+  <Mindshock.stages.fatal.label>fatal</Mindshock.stages.fatal.label>
+</LanguageData>

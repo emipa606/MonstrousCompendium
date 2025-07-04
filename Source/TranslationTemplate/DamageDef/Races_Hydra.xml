@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: venomous bite -->
+  <hydrabite.label>venomous bite</hydrabite.label>
+  <!-- EN: {0} has been bitten to death. -->
+  <hydrabite.deathMessage>{0} has been bitten to death.</hydrabite.deathMessage>
+</LanguageData>

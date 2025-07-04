@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: purple worm -->
+  <Purpleworm.label>purple worm</Purpleworm.label>
+  <!-- EN: A large worm, often more longer than 40 meters in length. Be careful when passing their territory, as they can sense everything near them. -->
+  <Purpleworm.description>A large worm, often more longer than 40 meters in length. Be careful when passing their territory, as they can sense everything near them.</Purpleworm.description>
+  <!-- EN: head -->
+  <Purpleworm.tools.head.label>head</Purpleworm.tools.head.label>
+</LanguageData>

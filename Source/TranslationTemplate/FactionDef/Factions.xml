@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: illithid -->
+  <IllithidFaction.label>illithid</IllithidFaction.label>
+  <!-- EN: Illithid, fortunately are not wild animals. They are a kind of faction, like mechanoids. Sometimes Illithids visit your base to melt your brain. Be careful, and prepare expert melee fighters before regret, as they are real CR 7 monsters. -->
+  <IllithidFaction.description>Illithid, fortunately are not wild animals. They are a kind of faction, like mechanoids. Sometimes Illithids visit your base to melt your brain. Be careful, and prepare expert melee fighters before regret, as they are real CR 7 monsters.</IllithidFaction.description>
+  <!-- EN: a illithid lair -->
+  <IllithidFaction.fixedName>a illithid lair</IllithidFaction.fixedName>
+  <!-- EN: leader -->
+  <IllithidFaction.leaderTitle>leader</IllithidFaction.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <IllithidFaction.messageDefendersAttacking>{0} from {1} are attacking your {2}.</IllithidFaction.messageDefendersAttacking>
+  <!-- EN: member -->
+  <IllithidFaction.pawnSingular>member</IllithidFaction.pawnSingular>
+  <!-- EN: illithids -->
+  <IllithidFaction.pawnsPlural>illithids</IllithidFaction.pawnsPlural>
+</LanguageData>

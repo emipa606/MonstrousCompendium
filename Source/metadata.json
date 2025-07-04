@@ -2,9 +2,15 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "SearchTags": [
     "mythical creatures"
-  ]
+  ],
+  "LastXmlCleaning": "2025-07-04T20:20:19.6349323+02:00",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 12725.0,
+  "LinesOfXML": 127758.0
 }

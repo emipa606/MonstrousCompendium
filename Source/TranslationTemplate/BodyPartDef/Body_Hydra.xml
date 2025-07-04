@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fifth head -->
+  <fifthHead.label>fifth head</fifthHead.label>
+  <!-- EN: fifth neck -->
+  <fifthNeck.label>fifth neck</fifthNeck.label>
+  <!-- EN: first head -->
+  <firstHead.label>first head</firstHead.label>
+  <!-- EN: first neck -->
+  <firstNeck.label>first neck</firstNeck.label>
+  <!-- EN: fourth head -->
+  <fourthHead.label>fourth head</fourthHead.label>
+  <!-- EN: fourth neck -->
+  <fourthNeck.label>fourth neck</fourthNeck.label>
+  <!-- EN: second head -->
+  <secondHead.label>second head</secondHead.label>
+  <!-- EN: second neck -->
+  <secondNeck.label>second neck</secondNeck.label>
+  <!-- EN: third head -->
+  <thirdHead.label>third head</thirdHead.label>
+  <!-- EN: third neck -->
+  <thirdNeck.label>third neck</thirdNeck.label>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: flame -->
+  <FlameNocam.label>flame</FlameNocam.label>
+  <!-- EN: {0} has burned to death. -->
+  <FlameNocam.deathMessage>{0} has burned to death.</FlameNocam.deathMessage>
+  <!-- EN: Mind blast -->
+  <Mindblast.label>Mind blast</Mindblast.label>
+  <!-- EN: {0}'s mind has been broken. -->
+  <Mindblast.deathMessage>{0}'s mind has been broken.</Mindblast.deathMessage>
+</LanguageData>

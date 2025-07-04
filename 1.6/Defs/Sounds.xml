@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>PsionicCast</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>wand/wand</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>18.09319</min>
+          <max>24.58423</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.5</min>
+          <max>1.5</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>
